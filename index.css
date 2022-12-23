@@ -1,0 +1,102 @@
+/* body */
+body{
+    background-color:black;
+}
+  /* heading */
+h2{
+    margin-left: 30%;
+    color:yellow;
+    font-size: 100px;
+    font-family:cursive;
+    font-weight:500;
+}
+
+/* container */
+
+#container{
+    width:100%;
+    height: 36rem;
+    margin: auto;
+    border: 3px dashed peru;
+    background-color:teal;
+}
+/* time-container for hour mintue second denotes */
+
+#time-container{
+   background-color:black;
+    color:blue ;
+    width: 400px;
+    height: 95px;
+    margin-left: 35%;
+    position: relative;
+    
+}
+
+#hour{
+    font-size: 100px;
+    font-weight: bold;
+}
+#mintue{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#second{
+    font-size: 100px;
+    font-weight: bold;
+}
+#clon{
+    font-size: 100px;
+    font-weight: bold;
+}
+/* button div */
+#btn-container{
+    margin-left: 39%;
+    margin-top: 47px;
+}
+
+/* start button */
+#start{
+    color:white;
+    background-color:black;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    font-size: 25px;
+}
+/* start button hover */
+#start:hover{
+    box-shadow :2px 4px 5px purple;
+    color:red;
+}
+/* stop button */
+#stop{
+    color:white;
+    background-color:black;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    font-size: 25px;
+}
+/* stop button hover */
+#stop:hover{
+    box-shadow :2px 4px 5px darkblue;
+    color:red;
+}
+/* rest button */
+#rest{
+    color:white;
+    background-color:black;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    font-size: 25px;
+}
+/* rest button hover */
+#rest:hover{
+    box-shadow :2px 4px 5px yellow;
+    color:red;
+}
+
+
+
